@@ -5,7 +5,7 @@ import memeHandler as juan
 import utils as u
 
 
-# Clase para guardar la ultima foto enviada.
+# Class that keeps track of the last image sent
 class LastSent:
     def __init__(self,fileId: str):
         lastSent = fileId
